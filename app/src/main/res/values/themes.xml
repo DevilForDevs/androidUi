@@ -1,15 +1,16 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.SearchBar" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.SearchBar" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+         <item name="colorPrimary">@color/purple</item>
+       <!-- <item name="colorPrimary">@color/white</item>-->
     </style>
 
     <style name="Theme.SearchBar" parent="Base.Theme.SearchBar" />
     <!-- styles.xml -->
-    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+  <!--  <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
     <style name="AppTheme.SearchView" parent="Widget.AppCompat.SearchView">
         <item name="searchIcon">@null</item>
         <item name="android:background">@null</item>
-    </style>
+    </style>-->
 </resources>
